@@ -1,0 +1,2 @@
+import basics.functions.ascii_code as ascii_code
+ascii_code
