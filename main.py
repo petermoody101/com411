@@ -1,2 +1,2 @@
-import basics.functions.ascii_code as ascii_code
-ascii_code
+import data.simple_list as simple_list
+simple_list
