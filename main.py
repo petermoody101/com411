@@ -1,2 +1,2 @@
-import data.simple_list as simple_list
-simple_list
+import data.index_list as index_list
+index_list
