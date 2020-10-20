@@ -1,2 +1,2 @@
-import data.index_list as index_list
-index_list
+import data.iterate_list as iterate_list
+iterate_list
