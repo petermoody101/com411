@@ -17,7 +17,7 @@ def menu():
 
 #dedining run function
 def run():
-  #calling menu f
+  #calling menu function
   menu()
 
 run()

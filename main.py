@@ -1,2 +1,2 @@
-import data.iterate_list as iterate_list
-iterate_list
+import data.lists.populate_list as populate_list
+populate_list
