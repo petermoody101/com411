@@ -1,2 +1,2 @@
-import visual.plots.simple as simple
-simple
+import visual.plots.squares as squares
+squares
