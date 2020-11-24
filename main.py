@@ -1,2 +1,2 @@
-import data.lists.populate_list as populate_list
-populate_list
+import visual.plots.simple as simple
+simple
