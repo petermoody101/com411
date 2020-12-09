@@ -18,7 +18,12 @@ class robot:
   #defining an instance method
   def display(self):
     print(f"I am {self.name}")
-
+  #defining a formal string method
+  def __repr__(self):
+    return f"Robot(name={self.name}, age={self.age})
+  #defining an informal string method
+  def __str__(self):
+    return f"Robot {self.name}, is {self.age} years old."
 
 
   
