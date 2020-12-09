@@ -1,2 +1,2 @@
-import visual.plots.squares as squares
-squares
+import OOP.human as human
+human
