@@ -14,13 +14,13 @@ class robot:
     #assigning instance attributes
     self.name = name
     self.age = 0
-    self.energy = energy
+    self.energy = robot.MAX_ENERGY
   #defining an instance method
   def display(self):
     print(f"I am {self.name}")
   #defining a formal string method
   def __repr__(self):
-    return f"Robot(name={self.name}, age={self.age})
+    return f"Robot(name={self.name}, age={self.age})"
   #defining an informal string method
   def __str__(self):
     return f"Robot {self.name}, is {self.age} years old."
@@ -30,8 +30,8 @@ class robot:
   #defining eat method
   def eat(self, amount):
     #if statement to ensure energy does not exceed max energy
-    if self.energy = MAX_ENERGY:
-      print "Energy full, no need to eat"
+    if self.energy == robot.MAX_ENERGY:
+      print ("Energy full, no need to eat")
     else:
       self.energy = self.energy + amount
   #defining move method
