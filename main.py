@@ -1,2 +1,2 @@
-import OOP.human as human
-human
+import OOP.universe as universe
+universe
