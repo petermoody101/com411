@@ -1,5 +1,5 @@
 #defining a class
-class Human:
+class human:
   #setting class attributes
   MAX_ENERGY = 100
   #defining an instance
@@ -7,7 +7,11 @@ class Human:
     #assigning instance attributes
     self.name = name
     self.age = age
+<<<<<<< HEAD
     self.energy = Human.MAX_ENERGY
+=======
+    self.energy = human.MAX_ENERGY
+>>>>>>> 725d7701e905c04d9678c9591772f140a373f274
   #defining a method
   def display(self):
     print(f"I am {self.name}")
@@ -23,7 +27,11 @@ class Human:
   #defining eat method
   def eat(self, amount):
     #if statement to ensure energy does not exceed max energy
+<<<<<<< HEAD
     if self.energy == Human.MAX_ENERGY:
+=======
+    if self.energy == human.MAX_ENERGY:
+>>>>>>> 725d7701e905c04d9678c9591772f140a373f274
       print ("Energy full, no need to eat")
     else:
       self.energy = self.energy + amount

@@ -14,7 +14,11 @@ class Robot:
     #assigning instance attributes
     self.name = name
     self.age = 0
+<<<<<<< HEAD
     self.energy = Robot.MAX_ENERGY
+=======
+    self.energy = robot.MAX_ENERGY
+>>>>>>> 725d7701e905c04d9678c9591772f140a373f274
   #defining an instance method
   def display(self):
     print(f"I am {self.name}")
@@ -30,7 +34,11 @@ class Robot:
   #defining eat method
   def eat(self, amount):
     #if statement to ensure energy does not exceed max energy
+<<<<<<< HEAD
     if self.energy == Robot.MAX_ENERGY:
+=======
+    if self.energy == robot.MAX_ENERGY:
+>>>>>>> 725d7701e905c04d9678c9591772f140a373f274
       print ("Energy full, no need to eat")
     else:
       self.energy = self.energy + amount

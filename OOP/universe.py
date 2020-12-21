@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 from OOP.planet import Planet
 from OOP.human import Human
@@ -48,3 +49,12 @@ print(Planet.__str__(universe.newPlanet))
 
 
   
+=======
+from random import random
+from OOP.planet import planet
+class universe:
+  planets = []
+  
+  
+  
+>>>>>>> 725d7701e905c04d9678c9591772f140a373f274
